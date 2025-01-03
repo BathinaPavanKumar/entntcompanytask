@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.navigation {
+  background-color: #282c34;
+  padding: 10px;
+}
+
+.navigation a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard th, .dashboard td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dashboard tr.overdue {
+  background-color: #ffcccb;
+}
+
+.dashboard tr.due-today {
+  background-color: #ffffa0;
+}
+
+.company-management form, .communication-method-management form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.company-management input, .communication-method-management input {
+  margin-bottom: 10px;
+}
+
